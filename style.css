@@ -1,4 +1,6 @@
 .dashboard {
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-rows: repeat(2, minmax(100px, 1fr));
     grid-template-columns: repeat(2, minmax(100px, 1fr));
@@ -9,6 +11,7 @@
     gap: 50px;
     padding: 10px;
     background-color: aqua;
+    grid-row: 1 / -1;
 }
 
 svg {
