@@ -119,8 +119,8 @@ svg {
 }
 
 .card {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     background-color: white;
     border: 1px solid blue;
 }
