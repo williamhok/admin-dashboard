@@ -124,6 +124,13 @@ svg {
     height: 150px;
     background-color: white;
     border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bot {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .content-right {
